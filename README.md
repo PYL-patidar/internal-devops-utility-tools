@@ -11,15 +11,15 @@ This project aims to deliver production grade utilities API to internal teams
 - System Metrics
 
 ## Usage
-git clone <repo>
+git clone <repo>  
 
-### setup the python environment
+### setup the python environment  
 
-python3.14 -m venv venv
-source venv/bin/activate
+python3.14 -m venv venv  
+source venv/bin/activate  
 
-### install the requirements
-pip install -r requirements.txt
+### install the requirements  
+pip install -r requirements.txt  
 
-### run the application
-python main.py
+### run the application  
+python main.py  
