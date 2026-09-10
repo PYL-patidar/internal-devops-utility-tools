@@ -1,6 +1,6 @@
 ## This is the router or endpoint for security group
 
-from services.security_group import security_group_audit
+from services.sec_grp_service import security_group_audit
 from fastapi import APIRouter, HTTPException
 
 router = APIRouter()

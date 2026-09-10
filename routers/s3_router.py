@@ -1,6 +1,6 @@
 ## This is for endpoint or router for aws service
 
-from services.s3 import get_buckets
+from services.s3_service import get_buckets
 from fastapi import APIRouter, HTTPException
 
 

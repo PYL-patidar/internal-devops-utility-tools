@@ -3,7 +3,7 @@
 import boto3
 
 def ec2_instance_info():
-    ec2_client = boto3.client("ec2", region_name='ap-south-1')
+    ec2_client = boto3.client("ec2", region_name="ap-south-1")
     response = ec2_client.describe_instances()
     
     instance_info = []
@@ -23,4 +23,4 @@ def ec2_instance_info():
 
     return {
             "Total instances": len(instance_info),
-            "Instance_info" : instance_info}
+            "Instances_info" : instance_info}

@@ -29,11 +29,11 @@ def get_unattach_volume():
         else:
             pass
 
-    return { "Total volume": len(total_volume_list),
-            "Total attached_volumes": len(attached_volume_list),
-            "Total unattached_volumes": len(unattached_volume_list),
-            "Attached volumes" : attached_volume_list,
-            "Unattached volumes" : unattached_volume_list
+    return { "total_volumes": len(total_volume_list),
+            "attached_volumes_count": len(attached_volume_list),
+            "unattached_volumes_count": len(unattached_volume_list),
+            "attached_volumes" : attached_volume_list,
+            "Unattached_volumes" : unattached_volume_list
             }
 
 

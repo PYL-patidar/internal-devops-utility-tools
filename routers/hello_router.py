@@ -1,4 +1,4 @@
-from services.greet import hello
+from services.greet_service import hello
 from fastapi import APIRouter
 
 router = APIRouter()

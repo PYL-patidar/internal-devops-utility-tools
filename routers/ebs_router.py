@@ -1,6 +1,6 @@
 # This is the endpoint for ebs service\
 
-from services.ebs import get_unattach_volume
+from services.ebs_service import get_unattach_volume
 from fastapi import APIRouter
 
 router = APIRouter()

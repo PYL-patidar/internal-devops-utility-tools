@@ -1,6 +1,6 @@
 ## This is used for writing code of route of our service like -> add service to a decorator
 
-from services.metrics import get_system_metrics
+from services.metrics_service import get_system_metrics
 from fastapi import APIRouter, HTTPException
 
 router = APIRouter()

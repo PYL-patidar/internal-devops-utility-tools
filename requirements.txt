@@ -2,3 +2,4 @@ fastapi
 uvicorn
 psutil
 boto3
+pydantic

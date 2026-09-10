@@ -1,7 +1,7 @@
 ## This contains all the initializing code like api creation
 
 from fastapi import FastAPI
-from router import hello_endpoint, metrics_endpoint, s3_endpoint, ec2_endpoint, ebs_endpoint, sec_grp
+from routers import hello_router, metrics_router, s3_router, ec2_router, ebs_router, sec_grp_router
 
 app = FastAPI(
         title= "Internal DevOps Utility API",
@@ -12,9 +12,9 @@ app = FastAPI(
         )
 
 
-app.include_router(hello_endpoint.router)
-app.include_router(metrics_endpoint.router)
-app.include_router(s3_endpoint.router, prefix="/aws")
-app.include_router(ec2_endpoint.router, prefix="/aws")
-app.include_router(ebs_endpoint.router, prefix="/aws")
-app.include_router(sec_grp.router, prefix="/aws")
+app.include_router(hello_router.router)
+app.include_router(metrics_router.router)
+app.include_router(s3_router.router, prefix="/aws")
+app.include_router(ec2_router.router, prefix="/aws")
+app.include_router(ebs_router.router, prefix="/aws")
+app.include_router(sec_grp_router.router, prefix="/aws")

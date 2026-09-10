@@ -13,15 +13,13 @@ def get_buckets():
     current_date = datetime.now(timezone.utc).astimezone()
     days_ago_90 = current_date - timedelta(days=90) 
 
-    print(current_date)
-    print(days_ago_90)
 
     for bucket in buckets:
         bucket_name = bucket["Name"]
         creation_date = bucket["CreationDate"]
 
         if creation_date < days_ago_90:
-            old_buckets.append(bucket_na00me)
+            old_buckets.append(bucket_name)
         else:
             new_buckets.append(bucket_name)
 
