@@ -46,28 +46,28 @@ internal-devops-utility-tools/
 
 ### Clone the repository
 
-git clone <https://github.com/PYL-patidar/internal-devops-utility-tools.git>  
-cd internal-devops-utility-tools  
+`git clone <https://github.com/PYL-patidar/internal-devops-utility-tools.git> 
+cd internal-devops-utility-tools  `
 
 ### Create virtual environment  
 
-python3.14 -m venv venv  
+`python3.14 -m venv venv  `
 
 #### Activate it:
 
-source venv/bin/activate  
+`source venv/bin/activate  `
 
 ### install the requirements  
 
-pip install -r requirements.txt  
+`pip install -r requirements.txt  `
 
 ### run the application  
 
-python main.py  
+`python main.py ` 
 
 #### The API will be available at 
 
-http://localhost:8000
+`http://localhost:8000`
 
 ## 📌 Project Status
 
