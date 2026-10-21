@@ -46,7 +46,7 @@ internal-devops-utility-tools/
 
 ### Clone the repository
 
-`git clone <https://github.com/PYL-patidar/internal-devops-utility-tools.git> `
+`git clone <https://github.com/PYL-patidar/internal-devops-utility-tools.git> `  
 `cd internal-devops-utility-tools  `
 
 ### Create virtual environment  
